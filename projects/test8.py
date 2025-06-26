@@ -1,0 +1,16 @@
+#Basic-set-operations
+a={1,7,9,6} 
+b={4,5,7,8} 
+print(a|b) 
+print(a&b) 
+c=a-b 
+print(c) 
+d=a^b 
+print(d) 
+a.difference_update(b) 
+print(a) 
+b.intersection_update(a) 
+print(b) 
+print(a) 
+c=a.copy() 
+print(c)
